@@ -7,7 +7,7 @@ def get_cpu_temperature():
     return temp.replace("temp=", "").replace("'C\n", "")
 
 # Pfad zur Logdatei
-log_file_path = "/home/pi/cpu_temperature_log.txt"
+log_file_path = "/media/drives/nextcloud/admin/files/Logs/log.txt"
 
 # Hauptschleife
 while True:
